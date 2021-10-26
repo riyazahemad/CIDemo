@@ -14,8 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    -name: Select Xcode
-     run: sudo xcode-select -switch /Applications/Xcode_12.5.1.app
     - name: Build and test
       run: xcodebuild clean build test -workspace App/CIDemo.xcworkspace -scheme
     
