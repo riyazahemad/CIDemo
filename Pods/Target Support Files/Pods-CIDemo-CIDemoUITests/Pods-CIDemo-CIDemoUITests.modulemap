@@ -1,0 +1,6 @@
+module Pods_CIDemo_CIDemoUITests {
+  umbrella header "Pods-CIDemo-CIDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
