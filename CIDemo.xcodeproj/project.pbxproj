@@ -15,6 +15,8 @@
 		0C4D1E99272104B100C02689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4D1E97272104B100C02689 /* LaunchScreen.storyboard */; };
 		0C4D1EA4272104B200C02689 /* CIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D1EA3272104B200C02689 /* CIDemoTests.swift */; };
 		0C4D1EAF272104B200C02689 /* CIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D1EAE272104B200C02689 /* CIDemoUITests.swift */; };
+		0CC23A65272795C100427776 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC23A63272795C100427776 /* FirstViewController.swift */; };
+		0CC23A66272795C100427776 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC23A64272795C100427776 /* FirstViewController.xib */; };
 		9D5EA6BC7CAA84B8C4FF6AD7 /* libPods-CIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445084436D9B6DC444D5B6ED /* libPods-CIDemo.a */; };
 		9FA7E214C0A342CCF6610BE4 /* libPods-CIDemo-CIDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B2E9E9BF6A45DA4D073DD6 /* libPods-CIDemo-CIDemoUITests.a */; };
 		D96F7C13C4BD69C5E68AB836 /* libPods-CIDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E605FBED1F1C621E303D95 /* libPods-CIDemoTests.a */; };
@@ -52,6 +54,8 @@
 		0C4D1EAA272104B200C02689 /* CIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4D1EAE272104B200C02689 /* CIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDemoUITests.swift; sourceTree = "<group>"; };
 		0C4D1EB0272104B200C02689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC23A63272795C100427776 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0CC23A64272795C100427776 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		1A1C10215988F00C3EFB5815 /* Pods-CIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIDemo.release.xcconfig"; path = "Target Support Files/Pods-CIDemo/Pods-CIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3B1B7E86A50B4C0E4D0E10D2 /* Pods-CIDemo-CIDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIDemo-CIDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CIDemo-CIDemoUITests/Pods-CIDemo-CIDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		445084436D9B6DC444D5B6ED /* libPods-CIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +123,8 @@
 				0C4D1E8C272104AF00C02689 /* AppDelegate.swift */,
 				0C4D1E8E272104AF00C02689 /* SceneDelegate.swift */,
 				0C4D1E90272104AF00C02689 /* ViewController.swift */,
+				0CC23A63272795C100427776 /* FirstViewController.swift */,
+				0CC23A64272795C100427776 /* FirstViewController.xib */,
 				0C4D1E92272104AF00C02689 /* Main.storyboard */,
 				0C4D1E95272104B100C02689 /* Assets.xcassets */,
 				0C4D1E97272104B100C02689 /* LaunchScreen.storyboard */,
@@ -155,7 +161,6 @@
 				5102949DBAF9D6E196559229 /* Pods-CIDemoTests.debug.xcconfig */,
 				6816E3A393796D4193E64827 /* Pods-CIDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +283,7 @@
 				0C4D1E99272104B100C02689 /* LaunchScreen.storyboard in Resources */,
 				0C4D1E96272104B100C02689 /* Assets.xcassets in Resources */,
 				0C4D1E94272104AF00C02689 /* Main.storyboard in Resources */,
+				0CC23A66272795C100427776 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +380,7 @@
 				0C4D1E91272104AF00C02689 /* ViewController.swift in Sources */,
 				0C4D1E8D272104AF00C02689 /* AppDelegate.swift in Sources */,
 				0C4D1E8F272104AF00C02689 /* SceneDelegate.swift in Sources */,
+				0CC23A65272795C100427776 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
